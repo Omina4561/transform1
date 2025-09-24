@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section_1{
+    height: 720px;
+    background-color: #F3D7B7;
+    position: relative;
+}
+.head {
+    width: 1340px;
+    height: 24px;
+    padding-top: 24px;
+    margin-left: 92px;
+    background-color: #F3D7B7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.head nav a {
+    text-decoration: none;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;
+}
+.head nav{
+    gap: 30px;
+    display: flex;
+}
+.text_1{
+    width: 372px;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 182px;
+    margin-left: 80px;
+}
+.text_1 h1{
+    font-size: 64px;
+    font-weight: 700;
+
+}
+.img1{
+    position: absolute;
+    top: 182px;
+    right: 60px;
+}
+.img2{
+    position: absolute;
+    top: 73px;
+    right: 600px;
+}
+.section_2{
+    height: 740px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section_2 div{
+    width: 646px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.section_2 h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.section_2 p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+}
+.section_3{
+    background-color: #C99B67;
+    height: 510px;
+   
+
+}
+.section_3 img{
+    position: absolute;
+    top: 1297px;
+    right: 60px;
+
+}
+.section_3 div{
+    width: 640px;
+   height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 100px;
+    margin-left: 50px;
+ 
+}
+.section_3 h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+.section_3 p{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+footer{
+    height: 160px;
+    background-color: #F3D7B7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+ 
+
+}
+.links{
+  display: flex;
+  gap: 30px;
+
+}
+.links a{
+  text-decoration: none;
+    color: #333333;
+    font-size: 12px;
+    font-weight: 700;      
+}
+.images{
+    gap: 30px;
+    display: flex;
+}
